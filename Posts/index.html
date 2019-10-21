@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>PAGES</title>
+  <link rel="stylesheet" type="text/css" href="styles/style.css">
+ 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Oswald:700&display=swap" rel="stylesheet">
+  <script src="scripts/script.js"></script>
+</head>
+
+<body >
+  <div class="section  main ">
+    <div class="menubar">
+      <div class="menubar-contents finealign">
+        <div class="title ">
+          <a class="refresh-link" href="indexquery.html"><i><b> posts</b></i></a>
+        </div>
+        <div class="new-post">
+          <button class="newpost" >New Post</button>
+        </div>
+      </div>
+    </div>
+    <div class="inner-contents finealign">
+      <div class="section-left">
+        <div class="list-scroll">
+          <div class="list-group" id="listdata">
+           
+          </div>
+        </div>
+      </div>
+      <div class="section-right">
+        <div class=" newPost" id="newdata">
+          <form class="form1" onsubmit="return false;">
+            <div class="title2 bold">
+              New Post
+            </div>
+            <div class="titlearea">Title</div>  
+            <div class="input1">  <input class="entertitle" id="entertitle" required minlength=5></div>
+            <div class="bodyarea">Body</div>
+            <div class="input2"><input class="enterbody" id="enterbody" required minlength=20></div>
+            <div class="post-button"><button class="post"type="submit">Post</button></div>
+          </form>
+        </div>
+        <div class=" fullDetail" id="fulldetails">
+          <div class="details" id="details"></div>
+          <div class="inside" id="comments"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+ 
+</body>
+
+</html>

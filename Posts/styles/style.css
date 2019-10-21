@@ -1,0 +1,162 @@
+body {
+  margin: 0 auto;
+  height: 100%;
+  /* width: 100%; */
+  font-family: 'Roboto', sans-serif;
+}
+
+.main {
+  margin: 0 auto;
+
+  min-width: 800px;
+}
+
+.finealign {
+  overflow: auto;
+  margin: 0 auto;
+  width: 800px;
+  border:.5px solid black;
+  border-collapse: collapse;
+}
+
+.bold {
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold 700;
+}
+
+.menubar {
+  width: 100%;
+  background-color: black;
+}
+
+.title {
+  float: left;
+  color: white;
+  margin: 15px 30px 15px 0px;
+  text-decoration: none;
+}
+
+.refresh-link {
+  color: white;
+  text-decoration: none;
+}
+
+.newpost {
+  float: right;
+  background-color: #e7e7e7;
+  color: black;
+  border: none;
+  padding: 8px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px 5px;
+}
+
+.section-left {
+  float: left;
+  width: 40%;
+  border: 1px solid black;
+
+}
+
+.section-right {
+  float: right;
+  width: 59%;
+}
+
+.namedata {
+  color: black;
+  text-decoration: none;
+  
+
+}
+
+.list-scroll {
+  height: 650px;
+  overflow: scroll;
+
+}
+.list-scroll::-webkit-scrollbar { 
+  display: none; 
+} 
+
+
+.textalign {
+  /* padding: 20px; */
+ 
+
+}
+.blackline {
+  border: 1px solid black;
+}
+
+.newPost {
+  padding: 20px;
+}
+
+
+.title2 {
+  font-size: 25px;
+}
+
+.titlearea {
+  padding: 30px 0px 0px 0px;
+}
+
+.post {
+  background-color: #e7e7e7;
+  color: black;
+  border: .5px solid black;
+  padding: 6px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 20px;
+
+}
+.enterbody{
+  width:100%;
+  border:1px solid black;
+  padding-bottom:50px;
+  margin-top: 10px;
+}
+.entertitle{
+  width:100%;
+  border:1px solid black;
+  padding-bottom:5px;
+  margin-top:10px;
+}
+.fullDetail{
+  margin:20px;
+}
+.bodyarea{
+  margin-top:10px;
+}
+.comments{
+  
+  padding:10px;
+  
+
+}
+.inside{
+  border:1px solid black;
+  border-collapse: collapse;
+  height:400px;
+  overflow:scroll;
+}
+.inside::-webkit-scrollbar { 
+  display: none; 
+} 
+.clickk{
+  background-color:#c0c0c0;
+  
+
+}
+.click{
+  padding-left:10px;
+  border:1px solid black;
+  border:collapse;
+}
