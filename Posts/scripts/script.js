@@ -3,9 +3,7 @@ var obj1;
 var user;
 var count = 999;
 var k = 0;
-
 function username(i, title) {
-
   $.ajax({
     url: "https://jsonplaceholder.typicode.com/users",
 
