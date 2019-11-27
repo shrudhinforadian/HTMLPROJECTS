@@ -1,0 +1,85 @@
+* {
+  box-sizing: border-box;
+  overflow: auto;
+}
+
+body {
+  margin: 0 auto;
+  height: 100%;
+  /* width: 100%; */
+  font-family: 'Roboto', sans-serif;
+}
+
+.main {
+  margin: 0 auto;
+  background: white;
+  min-width: 800px;
+}
+
+.finealign {
+  overflow: auto;
+  margin: 0 auto;
+  width: 800px;
+}
+
+.bold {
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold 700;
+}
+
+.section-left {
+  float: left;
+  background-color: #bfcfcc;
+  width: 65%;
+  height: 600px;
+  text-align: center;
+}
+
+.section-right {
+  width: 35%;
+  float: right;
+  background-color: #8c9c9a;
+  height: 600px;
+  overflow: scroll;
+}
+
+.title {
+  text-align: center;
+}
+
+.header {
+  background-color: #9db2b1;
+  padding: 10px;
+}
+
+.activity-section {
+  float: left;
+  width: 60%;
+  padding-left: 30px;
+}
+
+.buttons {
+  float: right;
+  width: 40%;
+}
+
+.section-delete {
+  width: 100%;
+  text-align: center;
+  padding: 20px;
+}
+
+.share-activity {
+  padding-top: 100px;
+  text-align: center;
+}
+
+.textarea {
+  border-radius: 10px;
+  width: 100%;
+}
+
+.output {
+  overflow: scroll;
+  height: 400px;
+}
