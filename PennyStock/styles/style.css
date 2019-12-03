@@ -1,355 +1,393 @@
-body{
+body {
   margin: 0 auto;
   height: 100%;
   /* width: 100%; */
   font-family: 'Roboto', sans-serif;
 }
+
 .main {
   margin: 0 auto;
   background: white;
-  min-width:800px;
+  min-width: 800px;
 }
-.finealign{
+
+.finealign {
   overflow: auto;
   margin: 0 auto;
   width: 800px;
 }
-.bold{
+
+.bold {
   font-family: 'Oswald', sans-serif;
   font-weight: bold 700;
 }
 
-.section-banner{
+.section-banner {
   background-image: linear-gradient(to bottom, #d1ff52 0%, #9ab801 100%);
   background-color: #9ab801;
-  box-shadow:inset 0px -2px 3px  #6d8103;
-  }
-.title1{
+  box-shadow: inset 0px -2px 3px #6d8103;
+}
+
+.title1 {
   font-size: 24px;
   float: left;
-  background-color:#5a7500;
-  color:transparent;
+  background-color: #5a7500;
+  color: transparent;
   text-shadow: 0px 0px 1px #9cbb00;
   -webkit-background-clip: text;
   -moz-background-clip: text;
   background-clip: text;
-  margin:8px 0px 10px 0px;
-  
+  margin: 8px 0px 10px 0px;
 }
-   
-.link1{
+
+.link1 {
   text-decoration: none;
   font-size: 13px;
   color: #ffffff;
   font-weight: bold;
   text-shadow: 0px 0px 0px #f4f4f4;
-  float:right;
-  margin:20px 0px 15px 0px;
+  float: right;
+  margin: 20px 0px 15px 0px;
 }
-.secton-menubar{
-  background-color:#f7f7f7;
-  
+
+.secton-menubar {
+  background-color: #f7f7f7;
 }
-.image2{
-  margin:13px 0px 10px 0px;
-  float:left;
-  
+
+.image2 {
+  margin: 13px 0px 10px 0px;
+  float: left;
 }
-.header-link{
+
+.header-link {
   float: right;
   font-size: 12px;
   margin: 35px 35px 25px 30px;
-  color:black;
+  color: black;
   font-weight: bold;
 }
-.page-link{
+
+.page-link {
   text-decoration: none;
-  color:black;
+  color: black;
 }
-.page-link:hover{
-  border-bottom: 2px solid #a6be06;  
+
+.page-link:hover {
+  border-bottom: 2px solid #a6be06;
 }
-.section-darkbrown{
-  
-  background-image:url("file:///home/shrudhin/Projects/HTML/images/Pennystock_contback.png");
+
+.section-darkbrown {
+  background-image: url("file:///home/shrudhin/Projects/HTML/images/Pennystock_contback.png");
   background-repeat: no-repeat;
   background-position: center top;
   background-size: 600px;
-  
   background-color: #4b3a2c;
 }
-.title2{
-  float:left;
-  padding:25px 0px 20px 0px;
+
+.title2 {
+  float: left;
+  padding: 25px 0px 20px 0px;
 }
-.text1{
-  color:white;
+
+.text1 {
+  color: white;
   font-size: 19px;
 }
-.text11{
-  
+
+.text11 {
   background: -webkit-linear-gradient(#fef971, #fdaa33);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 25px;
- 
-  
-}  
-.email-section1{
-  float:right;
-  padding:30px 0px 10px 0px;
-  
 }
-.input1{
+
+.email-section1 {
+  float: right;
+  padding: 30px 0px 10px 0px;
+}
+
+.input1 {
   border-radius: 10px;
-  height:25px;
+  height: 25px;
 }
-.section-block{
-  
-}
-.inner{
-  background-image:url("/home/shrudhin/Projects/HTML/images/Pennystock_contsubfinal.png"),linear-gradient(to bottom, #493220 10%, #312114 100%);
-  background-repeat: no-repeat,repeat;
+
+.section-block {}
+
+.inner {
+  background-image: url("/home/shrudhin/Projects/HTML/images/Pennystock_contsubfinal.png"), linear-gradient(to bottom, #493220 10%, #312114 100%);
+  background-repeat: no-repeat, repeat;
   background-position: right top;
   overflow: hidden;
   padding: 32px 0px 32px 0px;
   border-radius: 15px;
-  box-shadow:inset 1px 1px 4px rgb(34, 12, 0);
-  box-shadow:inset .5px -.5px 2px rgb(255, 152, 97);
+  box-shadow: inset 1px 1px 4px rgb(34, 12, 0);
+  box-shadow: inset .5px -.5px 2px rgb(255, 152, 97);
 }
-.smallcolumn{
+
+.smallcolumn {
   float: left;
   width: 33%;
   text-align: center;
-  padding-top:10px;
+  padding-top: 10px;
   padding-bottom: 10px;
 }
-.grfe{
+
+.grfe {
   font-size: 23px;
-  background-color:#251404;
-  color:transparent;
+  background-color: #251404;
+  color: transparent;
   -webkit-background-clip: text;
-  text-shadow: 0px 0px 2px  #2c1f14;
-
+  text-shadow: 0px 0px 2px #2c1f14;
 }
-.gain{
 
+.gain {
   background: -webkit-linear-gradient(#e2fb4b, #a5c315);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  
   font-size: 26px;
   padding-bottom: 10px;
-  
 }
-.alert{
+
+.alert {
   color: #ffffff;
 }
-.span{
+
+.span {
   color: greenyellow;
 }
-.exclu{
+
+.exclu {
   color: #ffffff;
-  font-size:17px;
+  font-size: 17px;
 }
-.text5{
-  color:#febb40;
-  
+
+.text5 {
+  color: #febb40;
 }
-.line{
+
+.line {
   float: left;
   height: 175px;
   border: .5px solid #65503f;
   box-shadow: 0px 1px #38210f;
 }
-.move-down{
-  padding-top:15px;
-}
-.text2{
-  color:white;
-  font-size: 18px;
-}
-.text-image{
-  padding-top:10px;
-  float:left;
-  color:white;
-  font-size: 18px;
-  
-}
-.read-link{
 
-  color:white;
+.move-down {
+  padding-top: 15px;
 }
-.section1{
-  float:left;
+
+.text2 {
+  color: white;
+  font-size: 18px;
+}
+
+.text-image {
+  padding-top: 10px;
+  float: left;
+  color: white;
+  font-size: 18px;
+}
+
+.read-link {
+  color: white;
+}
+
+.section1 {
+  float: left;
   max-width: 475px;
- 
 }
-.section2{
+
+.section2 {
   float: right;
-  max-width: 400px  ;
- 
+  max-width: 400px;
 }
-.sectionalign{
-  padding:20px  0px 0px 0px;
+
+.sectionalign {
+  padding: 20px 0px 0px 0px;
   overflow: hidden;
   margin: 0 auto;
-  
 }
-.text4{
+
+.text4 {
   font-size: 25px;
-  color:white;
+  color: white;
 }
-.lightbrown{
+
+.lightbrown {
   background: -webkit-linear-gradient(#675547, #796555);
-  
 }
-.description{
-  color:#c5af9f;
+
+.description {
+  color: #c5af9f;
   font-size: 13px;
-  
 }
-.ordered-list{
-  color:#c5af9f;
+
+.ordered-list {
+  color: #c5af9f;
   font-size: 13px;
-  float:left;
-  padding-left:15px;
+  float: left;
+  padding-left: 15px;
 }
-.text6{
-    color: greenyellow;
-    font-size: 13px;
+
+.text6 {
+  color: greenyellow;
+  font-size: 13px;
 }
-.brownbox{
+
+.brownbox {
   background-color: #312114;
-  background-image: linear-gradient(#614734 50%,#352315 100%,#614734 50%);
+  background-image: linear-gradient(#614734 50%, #352315 100%, #614734 50%);
   border-radius: 15px;
-  width:315px;height:130px;
+  width: 315px;
+  height: 130px;
   overflow: hidden;
   margin: 10px 0px 20px 0px;
-  box-shadow:0px 0px 1px 2px #322014;
-  
+  box-shadow: 0px 0px 1px 2px #322014;
 }
-.email{
-  margin:25px 5px 5px 15px; 
+
+.email {
+  margin: 25px 5px 5px 15px;
   background: -webkit-linear-gradient(#fef971, #fdaa33);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  
   font-size: 18px;
 }
-.text8{
-  margin:5px 5px 5px 15px;
-  color:white;
+
+.text8 {
+  margin: 5px 5px 5px 15px;
+  color: white;
   font-size: 13px;
-  
 }
-.align{
-  margin:10px 0px 25px 0px;;
+
+.align {
+  margin: 10px 0px 25px 0px;
+  ;
 }
-.email-area{
-  margin:5px 5px 5px 15px;
-  
+
+.email-area {
+  margin: 5px 5px 5px 15px;
 }
-.text7{
-  color:white;
+
+.text7 {
+  color: white;
   font-size: 16px;
 }
-.rss-image{
-  float:left;
+
+.rss-image {
+  float: left;
 }
-.description3{
-  float:right;
-  padding:15px;
-  font-size: 13px;
-  color:white;
-}
-.feedbar{
-  background-color: #382314;
-  box-shadow:inset 0px 2px 5px black;
-}
-.column1{
-  padding-top:10px;
-  max-width: 600px;
-  float:left;
-}
-.column2{
+
+.description3 {
   float: right;
-  padding-top:25px;
+  padding: 15px;
+  font-size: 13px;
+  color: white;
 }
-ul{
-  list-style:none;
+
+.feedbar {
+  background-color: #382314;
+  box-shadow: inset 0px 2px 5px black;
 }
-.end{
-  background-color:#483324;
+
+.column1 {
+  padding-top: 10px;
+  max-width: 600px;
+  float: left;
 }
-.menu-list{
-  color:white;
+
+.column2 {
+  float: right;
+  padding-top: 25px;
+}
+
+ul {
+  list-style: none;
+}
+
+.end {
+  background-color: #483324;
+}
+
+.menu-list {
+  color: white;
   font-size: 18px;
 }
-.footnav{
+
+.footnav {
   text-decoration: none;
   padding: 1px;
   line-height: 20px;
   color: #9ab801;
-    font-size: 12px;
+  font-size: 12px;
 }
-.subscribe-text{
-  font-size:20px;
+
+.subscribe-text {
+  font-size: 20px;
   background: -webkit-linear-gradient(#e2fb4b, #a5c315);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  color:greenyellow;
+  color: greenyellow;
 }
-.free{
+
+.free {
   font-size: 20px;
-  color:white;
+  color: white;
 }
-.input2{
-  width:110px;
-  height:15px;
+
+.input2 {
+  width: 110px;
+  height: 15px;
 }
-.button{
+
+.button {
   border-radius: 5px;
-  background-color:yellowgreen;
+  background-color: yellowgreen;
 }
-.site-info{
-  color:#745c4b;
-  padding-top:5px;
+
+.site-info {
+  color: #745c4b;
+  padding-top: 5px;
   font-size: 12px;
   padding-bottom: 65px;
-} 
+}
+
 .site-info:after {
   content: "Copyright reserved foradian  technologies ";
+}
 
+.social-media {
+  float: right;
 }
-.social-media{
-  float:right;
+
+.end-data {
+  clear: both;
 }
-.end-data{
-  clear:both;
-}
-.end-line{
-  color:#483324;
+
+.end-line {
+  color: #483324;
   border-top: 1px solid #271910;
-  box-shadow:inset 1px 1 px 2px black;
+  box-shadow: inset 1px 1 px 2px black;
 }
-.whiteline{
-  
-  width:33%;
+
+.whiteline {
+  width: 33%;
   border-top: .5px solid white;
   float: right;
-  margin-bottom:5px;
+  margin-bottom: 5px;
 }
-.proof{
+
+.proof {
   background: -webkit-linear-gradient(#fef971, #fdaa33);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 25px;
-  padding-bottom:5px;
+  padding-bottom: 5px;
 }
-.readbelow{
-  float:right;
+
+.readbelow {
+  float: right;
 }
-.section-proof{
+
+.section-proof {
   padding: 15px 0px 20px 0px;
 }
